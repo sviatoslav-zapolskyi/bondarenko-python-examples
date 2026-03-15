@@ -28,7 +28,7 @@ args = "sleep 2"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python paragraph24/example2.py"
+args = "python paragraph24/exercise24.py"
 
 [workflows.workflow.metadata]
 outputType = "vnc"
