@@ -22,12 +22,16 @@ args = "Start application"
 name = "Start application"
 author = "agent"
 
-[workflows.workflow.metadata]
-outputType = "vnc"
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "sleep 2"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python paragraph25/example1.py"
+
+[workflows.workflow.metadata]
+outputType = "vnc"
 
 [deployment]
 deploymentTarget = "vm"
