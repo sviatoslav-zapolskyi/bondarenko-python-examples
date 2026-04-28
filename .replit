@@ -24,11 +24,7 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "sleep 2"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "python paragraph24/exercise24.py"
+args = "python3 paragraph24/exercise24.py"
 
 [workflows.workflow.metadata]
 outputType = "vnc"
