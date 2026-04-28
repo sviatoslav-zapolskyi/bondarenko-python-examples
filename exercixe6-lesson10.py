@@ -1,7 +1,4 @@
-import random
-a = random.randint(-100,100)
-b = random.randint(-100,100)
 
-division = a / b
+x = 10*10/5 >= 20
 
-print(division)
+print(x)
