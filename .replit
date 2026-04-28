@@ -22,13 +22,13 @@ args = "Start application"
 name = "Start application"
 author = "agent"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "python3 paragraph24/exercise24.py"
-
 [workflows.workflow.metadata]
 outputType = "vnc"
 
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 paragraph24/example1.py"
+
 [deployment]
 deploymentTarget = "vm"
-run = ["python", "paragraph24/example1.py"]
+run = ["python3", "paragraph24/example1.py"]
